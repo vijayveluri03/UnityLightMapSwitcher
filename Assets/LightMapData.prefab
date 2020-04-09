@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4922062906352617148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2646866900137250398}
+  - component: {fileID: 4027641999157087465}
+  m_Layer: 0
+  m_Name: LightMapData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2646866900137250398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4922062906352617148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.42258584, y: -0.23172534, z: -14.822924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4027641999157087465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4922062906352617148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eaf7b9e78f164fdeadac2b7674098b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightingScenariosData:
+  - name: SampleScene_Night
+    rendererInfos:
+    - renderer: {fileID: 0}
+      lightmapIndex: 0
+      lightmapOffsetScale: {x: 0.78125, y: 0.78125, z: 0, w: 0}
+    - renderer: {fileID: 0}
+      lightmapIndex: 1
+      lightmapOffsetScale: {x: 0.78125, y: 0.78125, z: 0, w: 0}
+    - renderer: {fileID: 0}
+      lightmapIndex: 1
+      lightmapOffsetScale: {x: 0.23808943, y: 0.23808943, z: -0.0009656351, w: 0.7841906}
+    lightmaps:
+    - {fileID: 2800000, guid: 2a7173aa6cce941569adce92a24d4780, type: 3}
+    - {fileID: 2800000, guid: bd88a67cd48b342b29265c8aabcdf1af, type: 3}
+    lightmapsDir:
+    - {fileID: 2800000, guid: 3fc19059470f9432c92ef38fef26c717, type: 3}
+    - {fileID: 2800000, guid: 10a4c11e6a4ed44bb8d580259ee708df, type: 3}
+    lightmapsShadow:
+    - {fileID: 2800000, guid: e61a980caff114eb49c94aad8ef0adca, type: 3}
+    - {fileID: 2800000, guid: bf8019dbb0719493ebab10a2b0feef4f, type: 3}
+    lightmapsMode: 1
+    lightProbes: []
+  - name: SampleScene_Day
+    rendererInfos:
+    - renderer: {fileID: 0}
+      lightmapIndex: 0
+      lightmapOffsetScale: {x: 0.78125, y: 0.78125, z: 0, w: 0}
+    - renderer: {fileID: 0}
+      lightmapIndex: 1
+      lightmapOffsetScale: {x: 0.78125, y: 0.78125, z: 0, w: 0}
+    - renderer: {fileID: 0}
+      lightmapIndex: 1
+      lightmapOffsetScale: {x: 0.23808943, y: 0.23808943, z: -0.0009656351, w: 0.7841906}
+    lightmaps:
+    - {fileID: 2800000, guid: b5011258183134fd78d69fa42b0a9155, type: 3}
+    - {fileID: 2800000, guid: 597ac38b28afa4476bb517db8077ad00, type: 3}
+    lightmapsDir:
+    - {fileID: 2800000, guid: 71e4ae21a1cbc473baa6b416efec698c, type: 3}
+    - {fileID: 2800000, guid: d9edb3061f29743be88f64f2822fd04c, type: 3}
+    lightmapsShadow:
+    - {fileID: 2800000, guid: 71bd9503a40324dbd8e4aac6981fe495, type: 3}
+    - {fileID: 2800000, guid: 13d4a144236094a558c8dc49b5985af9, type: 3}
+    lightmapsMode: 1
+    lightProbes: []
+  loadOnAwake: 0
+  verbose: 0
+  m_currentLightScenario: SampleScene_Day
